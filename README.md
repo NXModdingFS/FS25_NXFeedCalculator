@@ -32,4 +32,4 @@
 
 • Safe for dedicated servers (Multyplayer compatible)
 
-• Recalculates asyncronously with canges in animal numbers and days per month changes
+• Recalculates asyncronously with changes in animal numbers and days per month changes
