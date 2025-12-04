@@ -4,34 +4,32 @@
 
 **Automatic feed consumption calculation**
 
-• Calculates daily and monthly feed requirements
+• Calculates monthly feed calculations
 
-• Works per-husbandry and per-animal cluster
+• Works per-husbandry and per-animal cluster (Breed Types)
 
 • Fully based on true animal husbandry data (age, subtype, input curves, lactation…)
 
 **Integrated UI Display**
 
-• Shows Daily, Monthly, and Time Remaining
+• Shows Monthly, and Time Remaining
 
-• Appears directly in the Animals Menu next to the feed row
-
-• Works without changing the existing FS25 UI layout
+• Integrated directly into the ingame Animals Menu
 
 **Supports all animal types**
 
 • Vanilla FS25 animals
 
-• Supports multiple husbandries (e.g., many chicken pens)
+• Supports multiple husbandries (e.g., same or different type)
 
 **Enhanced Animals System Compatible**
 
 • Automatically accounts for EAS lactation & production modifiers
 
-• Smoothly blends with the mod without conflicts
+• Integrates seamlessly into the Enhanced Animal Systems mod
 
 **Multiplayer Supported**
 
-• Safe for dedicated servers
+• Safe for dedicated servers (Multyplayer compatible)
 
-• Recalculates when animals or days-per-period change
+• Recalculates asyncronously with canges in animal numbers and days per month changes
