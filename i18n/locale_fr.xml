@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<l10n>
+    <locale>fr</locale>
+    <texts>
+        <text name="nxfc_gui_format" text="%.0fl Mensuel / %.0fl (%s) Restant"/>
+    </texts>
+</l10n>
