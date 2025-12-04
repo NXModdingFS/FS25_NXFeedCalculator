@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<modDesc descVersion="104">
+    <author>NX Modding</author>
+    <version>1.0.0.0</version>
+    <title>
+        <en>NX FeedCalculator</en>
+    </title>
+    <description>
+        <en>
+<![CDATA[Features:
+• Calculates monthly feed calculations
+• Works per-husbandry and per-animal cluster (Breed Types)
+• Fully based on true animal husbandry data (age, subtype, input curves, lactation…)
+• Shows Monthly, and Time Remaining
+• Integrated directly into the ingame Animals Menu
+• Vanilla FS25 animals
+• Supports multiple husbandries (e.g., same or different type
+• Automatically accounts for EAS lactation & production modifiers
+• Integrates seamlessly into the Enhanced Animal Systems mod
+• Safe for dedicated servers (Multyplayer compatible)
+• Recalculates asyncronously with canges in animal numbers and days per month changes
+]]>
+        </en>
+    </description>
+        
+	<l10n filenamePrefix="i18n/locale"/>
+		
+    <iconFilename>modIcon.dds</iconFilename>
+    <multiplayer supported="true"/>
+
+    <extraSourceFiles>
+        <sourceFile filename="NXFeedCalc.lua"/>
+    </extraSourceFiles>
+</modDesc>
