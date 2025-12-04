@@ -12,51 +12,52 @@
     <description>
         <en>
 <![CDATA[Features:
-• Calculates monthly feed calculations
+• Calculates monthly feed consumption
 • Works per-husbandry and per-animal cluster (Breed Types)
-• Fully based on true animal husbandry data (age, subtype, input curves, lactation…)
-• Shows Monthly, and Time Remaining
-• Integrated directly into the ingame Animals Menu
+• Fully based on true animal husbandry data (age, sub-type, input curves, lactation…)
+• Shows Monthly consumption, and Time Remaining
+• Integrated directly into the in game Animals Menu
 • Vanilla FS25 animals
-• Supports multiple husbandries (e.g., same or different type
+• Supports multiple husbandry's (e.g., same or different type)
 • Automatically accounts for EAS lactation & production modifiers
 • Integrates seamlessly into the Enhanced Animal Systems mod
 • Safe for dedicated servers (Multiplayer compatible)
-• Recalculates asyncronously with changes in animal numbers and days per month changes
+• Recalculates asynchronously to take account of changes in animal numbers
 ]]>
         </en>
 
         <de>
 <![CDATA[Funktionen:
 • Berechnet den monatlichen Futterverbrauch
-• Arbeitet pro Tierhaltung und pro Tier-Cluster (Rassen)
-• Vollständig basierend auf echten Tierhaltungsdaten (Alter, Untertyp, Input-Kurven, Laktation …)
-• Zeigt Monatlich und Verbleibende Zeit an
-• Direkt im Ingame-Tiermenü integriert
-• Unterstützt alle Vanilla-Tiere in FS25
+• Arbeitet pro Tierhaltung und pro Tier-Cluster (Rassetypen)
+• Basierend vollständig auf echten Tierhaltungsdaten (Alter, Untertyp, Input-Kurven, Laktation…)
+• Zeigt den monatlichen Verbrauch und die verbleibende Zeit an
+• Direkt in das Ingame-Tiermenü integriert
+• Unterstützt alle Vanilla-Tiere aus FS25
 • Unterstützt mehrere Tierhaltungen (gleicher oder unterschiedlicher Typ)
-• Berücksichtigt automatisch EAS-Laktations- und Produktionsmodifikatoren
+• Berücksichtigt automatisch die EAS-Laktations- und Produktionsmodifikatoren
 • Nahtlose Integration in das Enhanced Animal Systems-Mod
 • Sicher für Dedicated Server (Multiplayer-kompatibel)
-• Berechnet asynchron neu bei Änderungen der Tieranzahl oder Tage pro Monat
+• Berechnet asynchron neu, um Änderungen der Tieranzahl zu berücksichtigen
 ]]>
         </de>
 
         <fr>
 <![CDATA[Caractéristiques :
 • Calcule la consommation mensuelle de nourriture
-• Fonctionne par exploitation d’élevage et par groupe d’animaux (races)
-• Basé entièrement sur de vraies données d’élevage (âge, sous-type, courbes d’apports, lactation…)
-• Affiche le Mensuel et le Temps restant
-• Intégré directement dans le menu Animaux du jeu
+• Fonctionne par exploitation d’élevage et par groupe d’animaux (types/races)
+• Basé entièrement sur de véritables données d’élevage (âge, sous-type, courbes d’apport, lactation…)
+• Affiche la consommation mensuelle et le temps restant
+• Intégré directement dans le menu des animaux en jeu
 • Compatible avec les animaux vanilla de FS25
-• Prend en charge plusieurs élevages (même type ou type différent)
-• Prend automatiquement en compte les modificateurs de lactation et de production du mod EAS
+• Prend en charge plusieurs exploitations (même type ou type différent)
+• Tient automatiquement compte des modificateurs de lactation et de production du mod EAS
 • S’intègre parfaitement au mod Enhanced Animal Systems
 • Sûr pour les serveurs dédiés (compatible multijoueur)
-• Recalcul asynchrone lors des changements du nombre d’animaux ou des jours par mois
+• Recalcule de manière asynchrone pour prendre en compte les changements du nombre d’animaux
 ]]>
         </fr>
+
     </description>
 
     <l10n filenamePrefix="i18n/locale"/>
