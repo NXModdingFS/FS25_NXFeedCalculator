@@ -2,7 +2,7 @@
 
 - Review #1: https://www.youtube.com/watch?v=UIglYTRvHrs Thank you Gilgamoth 
 
-<ins>**Features Section:**</ins>
+:star2:<ins>**Features Section:**</ins>:star2: 
 
 **Automatic feed consumption calculation**
 
