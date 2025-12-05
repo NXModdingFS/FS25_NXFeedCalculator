@@ -215,9 +215,10 @@ local function NXFC_GUI(self, husbandry, ...)
 
     local statusString = ""
     if daysRemaining >= dpm then
-        local months = math.floor(daysRemaining / dpm)
-        local days = math.floor(daysRemaining % dpm)
-        statusString = (days > 0) and string.format("%dm %dd", months, days) or string.format("%dm", months)
+        -- *** FIXED: Rounded month display to 1 decimal place ***
+        local months = daysRemaining / dpm
+        statusString = string.format("%.1fm", months)
+
     elseif daysRemaining > 0 then
         statusString = string.format("%.1fd", daysRemaining)
     else
