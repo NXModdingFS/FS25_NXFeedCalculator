@@ -2,6 +2,6 @@
 <l10n>
 	<locale>en</locale>
     <texts>
-        <text name="nxfc_gui_format" text="%.0fl Monthly / %.0fl (%s) Remaining"/>
+        <text name="nxfc_gui_format" text="%.0fl Monthly | %.0fl (%s) Remains"/>
     </texts>
 </l10n>

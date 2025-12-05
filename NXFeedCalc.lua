@@ -213,19 +213,31 @@ local function NXFC_GUI(self, husbandry, ...)
     local currentFood = getCurrentFood(husbandry)
     local daysRemaining = (totalDaily > 0) and (currentFood / totalDaily) or 0
 
+    -- Updated time remaining display
     local statusString = ""
-    if daysRemaining >= dpm then
-        -- *** FIXED: Rounded month display to 1 decimal place ***
-        local months = daysRemaining / dpm
-        statusString = string.format("%.1fm", months)
+    if daysRemaining > 0 then
+        if dpm == 1 then
+            -- One-day month: show decimal months
+            local monthsDecimal = daysRemaining / dpm
+            statusString = string.format("%.1fm", monthsDecimal)
+        else
+            -- Normal month: show months + days
+            local months = math.floor(daysRemaining / dpm)
+            local days = math.ceil(daysRemaining - (months * dpm))
 
-    elseif daysRemaining > 0 then
-        statusString = string.format("%.1fd", daysRemaining)
+            if months > 0 and days > 0 then
+                statusString = string.format("%dm %dd", months, days)
+            elseif months > 0 then
+                statusString = string.format("%dm", months)
+            else
+                statusString = string.format("%dd", days)
+            end
+        end
     else
         statusString = (currentFood > 0) and "<0.1d" or "Empty"
     end
 
-    local fmt = "%.0fl Monthly / %.0fl (%s) Remaining"
+    local fmt = "%.0fl Monthly | %.0fl (%s) Remains"
     if g_i18n and type(g_i18n.getText) == "function" then
         local ok, txt = pcall(g_i18n.getText, g_i18n, "nxfc_gui_format")
         if ok and txt and txt ~= "" then fmt = txt end
