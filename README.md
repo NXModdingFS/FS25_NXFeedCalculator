@@ -1,6 +1,7 @@
 <ins>**Reviews:**</ins>
 
 - Review #1: https://www.youtube.com/watch?v=UIglYTRvHrs Thank you Gilgamoth
+- Review #2: https://youtu.be/4Xi4RTSKB6A?si=-uJphTqei7f9yhST Thank you Welsh Sim Farmer
 
 :star2:<ins>**Features Section:**</ins>:star2: 
 
