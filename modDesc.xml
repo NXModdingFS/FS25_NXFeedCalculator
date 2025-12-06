@@ -1,67 +1,82 @@
 <?xml version="1.0" encoding="utf-8" standalone="no" ?>
-<modDesc descVersion="104">
+<modDesc descVersion="105">
     <author>NX Modding</author>
-    <version>1.0.0.2</version>
+    <version>1.0.0.3</version>
 
     <title>
         <en>NX FeedCalculator</en>
         <de>NX FutterRechner</de>
-        <fr>NX Calculateur d'Alimentation</fr>
+        <fr>NX Calculateur D'Alimentation</fr>
     </title>
 
     <description>
         <en>
 <![CDATA[Features:
-• Calculates monthly feed consumption
-• Works per-husbandry and per-animal cluster (Breed Types)
-• Fully based on true animal husbandry data (age, sub-type, input curves, lactation…)
-• Shows Monthly consumption, and Time Remaining
-• Integrated directly into the in game Animals Menu
-• Vanilla FS25 animals
-• Supports multiple husbandry's (e.g., same or different type)
-• Automatically accounts for EAS lactation & production modifiers
-• Integrates seamlessly into the Enhanced Animal Systems mod
-• Safe for dedicated servers (Multiplayer compatible)
-• Recalculates asynchronously to take account of changes in animal numbers
+- Calculates monthly feed consumption
+- Works per-husbandry and per-animal cluster (Breed Types)
+- Fully based on true animal husbandry data (age, sub-type, input curves, lactation…)
+- Shows Monthly consumption, and Time Remaining
+- Integrated directly into the in game Animals Menu
+- Vanilla FS25 animals
+- Supports multiple husbandry's (e.g., same or different type)
+- Automatically accounts for EAS lactation & production modifiers
+- Integrates seamlessly into the Enhanced Animal Systems mod
+- Safe for dedicated servers (Multiplayer compatible)
+- Recalculates asynchronously to take account of changes in animal numbers
+
+Changelog v1.0.0.3:
+- Improved compatibility with third-party animal mods
+- Enhanced calculation accuracy for individual animal systems
+- Fixed time remaining display for single-day months
 ]]>
         </en>
 
         <de>
 <![CDATA[Funktionen:
-• Berechnet den monatlichen Futterverbrauch
-• Arbeitet pro Tierhaltung und pro Tier-Cluster (Rassetypen)
-• Basierend vollständig auf echten Tierhaltungsdaten (Alter, Untertyp, Input-Kurven, Laktation…)
-• Zeigt den monatlichen Verbrauch und die verbleibende Zeit an
-• Direkt in das Ingame-Tiermenü integriert
-• Unterstützt alle Vanilla-Tiere aus FS25
-• Unterstützt mehrere Tierhaltungen (gleicher oder unterschiedlicher Typ)
-• Berücksichtigt automatisch die EAS-Laktations- und Produktionsmodifikatoren
-• Nahtlose Integration in das Enhanced Animal Systems-Mod
-• Sicher für Dedicated Server (Multiplayer-kompatibel)
-• Berechnet asynchron neu, um Änderungen der Tieranzahl zu berücksichtigen
+- Berechnet den monatlichen Futterverbrauch
+- Arbeitet pro Tierhaltung und pro Tier-Cluster (Rassetypen)
+- Basierend vollständig auf echten Tierhaltungsdaten (Alter, Untertyp, Input-Kurven, Laktation…)
+- Zeigt den monatlichen Verbrauch und die verbleibende Zeit an
+- Direkt in das Ingame-Tiermenü integriert
+- Unterstützt alle Vanilla-Tiere aus FS25
+- Unterstützt mehrere Tierhaltungen (gleicher oder unterschiedlicher Typ)
+- Berücksichtigt automatisch die EAS-Laktations- und Produktionsmodifikatoren
+- Nahtlose Integration in das Enhanced Animal Systems-Mod
+- Sicher für Dedicated Server (Multiplayer-kompatibel)
+- Berechnet asynchron neu, um Änderungen der Tieranzahl zu berücksichtigen
+
+Changelog v1.0.0.3:
+- Verbesserte Kompatibilität mit Tiermods von Drittanbietern
+- Verbesserte Berechnungsgenauigkeit für individuelle Tiersysteme
+- Korrigierte Anzeige der verbleibenden Zeit für Ein-Tages-Monate
 ]]>
         </de>
 
         <fr>
 <![CDATA[Caractéristiques :
-• Calcule la consommation mensuelle de nourriture
-• Fonctionne par exploitation d’élevage et par groupe d’animaux (types/races)
-• Basé entièrement sur de véritables données d’élevage (âge, sous-type, courbes d’apport, lactation…)
-• Affiche la consommation mensuelle et le temps restant
-• Intégré directement dans le menu des animaux en jeu
-• Compatible avec les animaux vanilla de FS25
-• Prend en charge plusieurs exploitations (même type ou type différent)
-• Tient automatiquement compte des modificateurs de lactation et de production du mod EAS
-• S’intègre parfaitement au mod Enhanced Animal Systems
-• Sûr pour les serveurs dédiés (compatible multijoueur)
-• Recalcule de manière asynchrone pour prendre en compte les changements du nombre d’animaux
+- Calcule la consommation mensuelle de nourriture
+- Fonctionne par exploitation d'élevage et par groupe d'animaux (types/races)
+- Basé entièrement sur de véritables données d'élevage (âge, sous-type, courbes d'apport, lactation…)
+- Affiche la consommation mensuelle et le temps restant
+- Intégré directement dans le menu des animaux en jeu
+- Compatible avec les animaux vanilla de FS25
+- Prend en charge plusieurs exploitations (même type ou type différent)
+- Tient automatiquement compte des modificateurs de lactation et de production du mod EAS
+- S'intègre parfaitement au mod Enhanced Animal Systems
+- Sûr pour les serveurs dédiés (compatible multijoueur)
+- Recalcule de manière asynchrone pour prendre en compte les changements du nombre d'animaux
+
+Changelog v1.0.0.3:
+- Amélioration de la compatibilité avec les mods d'animaux tiers
+- Précision de calcul améliorée pour les systèmes d'animaux individuels
+- Correction de l'affichage du temps restant pour les mois d'un jour
 ]]>
         </fr>
 
     </description>
 
     <l10n filenamePrefix="i18n/locale"/>
-    <iconFilename>modIcon.dds</iconFilename>
+    <iconFilename>icon_NXFeedCalculator.dds</iconFilename>
     <multiplayer supported="true"/>
 
     <extraSourceFiles>

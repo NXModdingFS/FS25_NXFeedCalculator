@@ -6,6 +6,9 @@ AnimalFoodCalculator.daysPerPeriod = nil
 AnimalFoodCalculator.isEAS =
     g_modManager ~= nil and g_modManager:getModByName("FS25_EnhancedAnimalSystem") ~= nil
 
+AnimalFoodCalculator.isRL =
+    g_modManager ~= nil and g_modManager:getModByName("FS25_RealisticLivestock") ~= nil
+
 local function getClustersFromObject(obj)
     if not obj then return nil end
 

@@ -1,6 +1,6 @@
 <ins>**Reviews:**</ins>
 
-- Review #1: https://www.youtube.com/watch?v=UIglYTRvHrs Thank you Gilgamoth 
+- Review #1: https://www.youtube.com/watch?v=UIglYTRvHrs Thank you Gilgamoth
 
 :star2:<ins>**Features Section:**</ins>:star2: 
 
@@ -29,6 +29,8 @@
 • Automatically accounts for EAS lactation & production modifiers
 
 • Integrates seamlessly into the Enhanced Animal Systems mod
+
+• Integrates seamlessly into the Realistic Livestock mod
 
 **Multiplayer Supported**
 
