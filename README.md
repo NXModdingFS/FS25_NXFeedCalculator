@@ -1,3 +1,7 @@
+> [!NOTE]
+> Edits of this mod file are not permitted.
+> You may submit a bug report via the Github Repo, however, the prefered method is through our discord this allows us to easily ask questions sould I need more evidence https://discord.gg/aDTTXAhE2m
+
 <ins>**Reviews:**</ins>
 
 - Review #1: https://www.youtube.com/watch?v=UIglYTRvHrs Thank you Gilgamoth
@@ -36,5 +40,6 @@
 **Multiplayer Supported**
 
 • Safe for dedicated servers (Multiplayer compatible)
+
 
 • Recalculates asynchronously to take account of changes in animal numbers
