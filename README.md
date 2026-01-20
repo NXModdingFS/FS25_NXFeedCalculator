@@ -1,6 +1,5 @@
-> [!NOTE]
-> Edits of this mod file are not permitted.
-> You may submit a bug report via the Github Repo, however, the prefered method is through our discord this allows us to easily ask questions sould I need more evidence https://discord.gg/aDTTXAhE2m
+> [!IMPORTANT]
+> ModHub Download: https://www.farming-simulator.com/mod.php?mod_id=343747 The latest features will always be avaliable on my GitHub however, if you'd prefer to use the ModHub version to recieve update notifications in game feel free.
 
 <ins>**Reviews:**</ins>
 
@@ -43,3 +42,7 @@
 
 
 • Recalculates asynchronously to take account of changes in animal numbers
+
+> [!NOTE]
+> Edits of this mod file are not permitted.
+> You may submit a bug report via the Github Repo, however, the prefered method is through our discord this allows us to easily ask questions sould I need more evidence https://discord.gg/aDTTXAhE2m
